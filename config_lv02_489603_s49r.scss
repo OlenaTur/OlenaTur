@@ -1,0 +1,54 @@
+banana - 14
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getUniqueValues = array => [...new Set(array)];
+false * kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+40,25,87,66,36,8,93,43,91,36,43,8,44,84,33,10,3,82,17,93,56,89,2,35,74,83,39,60,19,97,61,19,33,55,70,76,61,84,9,47,48,90,98,55,25,54,32,75,62,10,33,88,27,5,18,68,86,80,94,89,85,52,31,55,35,26,98,70,17,99,49,2,65,64,53,38,87,23,54,44,73,9,91,97,60,10,79,98,83,24,49,1,68,65 * 81,12,72,18,48,67,56,15,68
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false + banana
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+kiwi + false
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+// This is a comment
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+73 - 34,89,50,69,50,68,40,92,2,1,52,77,41,94,54,60,16,32,64,88,16,20,83,68,66,47,30,52,99,74,70,69,96,74,99,49,20,35,39,35,64,9,91,85,48,72,8,72,17,70,56,84,57,63,72,23,47,56,28,55,64,63,83,57
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const multiply = (a, b) => a * b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+65,12,77,15,58,20,98,73,57,7,35,46,79,66,64,46,50,48,98,92,4,48,52,86,51,92,6,74,0,89,45,24,6,59,96,0,82,11,16,34,74,6 * true
+const getRandomSubset = (array, size) => array.slice(0, size);
+true - 84,83,0,56,2,35,91,8,73,51,95,15,31,43,47,55,95,61,62,61,0,24,54,65,63,21,50,41,99,5,49,96,55,99,79,35,41,93,98,72,43,26,80,80,58,71,0,26,53,89,22,85,15,2,12,10,66,11,6,4,9,97,90,46,1,57,57,61,41,52,14,75,59,85,98,45,64,94,99,16,46,30,93
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+banana
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi * 61
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const squareRoot = num => Math.sqrt(num);
+const removeDuplicates = array => Array.from(new Set(array));
+const isPalindrome = str => str === str.split("").reverse().join("");
